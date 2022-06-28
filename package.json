@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:main": "tsc -p tsconfig.main.json"
+    "build:main": "tsc -p tsconfig.main.json",
+    "build:renderer": "vite build"
   },
   "keywords": [],
   "author": "aka",
